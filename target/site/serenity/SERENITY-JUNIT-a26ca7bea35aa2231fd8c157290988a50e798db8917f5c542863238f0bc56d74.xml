@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.bestbuy.curdtest.ProductCRUDTest" skipped="0" tests="4" time="4.66" timestamp="2023-08-06T21:18:40.463+01:00[Europe/London]"><testcase classname="com.bestbuy.curdtest.ProductCRUDTest" name="This will create new product"/><testcase classname="com.bestbuy.curdtest.ProductCRUDTest" name="Verify if the student was added to the application"/><testcase classname="com.bestbuy.curdtest.ProductCRUDTest" name="Update the user information and verify the updated information"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.curdtest.ProductCRUDTest.test003(ProductCRUDTest.java:60)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.curdtest.ProductCRUDTest" name="Delete the student and verify if the student is deleted!"><failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;401&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;401&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.curdtest.ProductCRUDTest.test004(ProductCRUDTest.java:68)&#13;
+</system-err></testcase></testsuite>
